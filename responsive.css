@@ -1,0 +1,147 @@
+/* mobile - tablet */
+@media only screen and (max-width: 63.9375em) {
+
+
+
+
+    /* header */
+ 
+    .header-right {
+        display: none;
+    }
+
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sub-heading {
+        margin-left: 0;
+    }
+
+    .link-download {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        padding:  0;
+
+    }
+}
+
+@media only screen and (max-width: 46.1875em) {
+    /* header */
+    .header {
+        padding:  0;
+    }
+
+    .brand {
+        margin: 100px 0;
+    }
+
+    .link-download {
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .link-download a {
+        margin: 10px auto;
+        display: flex;
+        overflow-x: hidden;
+        width: 80%;
+    }
+    /* main */ 
+
+    .main {
+        margin: 0 20px;
+    }
+
+    .introduce h1 {
+        font-size: 30px;
+        text-align: center;
+        color: var(--primary-color);
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .introduce i {
+        display: none;
+    }
+
+    .wide-4 {
+        flex: 0 0 50%;
+    }
+
+    .wide-2 {
+        min-width: auto;
+    }
+
+    .feature-info {
+        border: none !important;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    /* feature-intro */
+
+    .wide-2 {
+        width: 100%;
+    }
+    .feature-intro .wide-2:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .turn {
+        order: 1;
+    }
+
+    .feature-text {
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    /* footer */ 
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .footer-bottom {
+        text-align: center;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    /* main */
+
+    .feature-text {
+        margin: 0;
+    }
+
+
+    /* footer */
+
+    .footer-bottom {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .wide {
+        max-width: 100vw;
+    }
+
+    .main {
+        margin: 60px 100px;
+    }
+}
